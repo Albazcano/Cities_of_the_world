@@ -12,7 +12,7 @@
   <header class="d-flex justify-content-between">
     <h2>Cities in the word</h2>
     <ul class="nav justify-content-end">
-          <li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
@@ -25,11 +25,13 @@
   </header>
 
   <section class="sizeSection" >
-    <h3>The most Popular City</h3>
+    <div>
+      <p>The most Popular City</p>
+    </div>    
   </section>  
 
   <section class="visitedCities">
-    <div id= aside>    
+    <div id= aside class="col-3">    
       <h5>Ranking - Most Visited</h5>
 
       <ul class="list-group">
@@ -43,62 +45,64 @@
   
     </div>
 
-    <div id= cards>
+    <section class="cards container col-9">
 
-      <div class="card w-50" style="width: 18rem;">
-        <img class="card-image" src="./assets/placeimg_640_480_arch.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Hong Kong</h5>
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus exercitationem cumque at necessitatibus officia dolor. Debitis libero assumenda atque excepturi.</p>
-          <a href="#" class="btn btn-primary">Button</a>
+      <div class="row g-2">
+        <div class="card col-lg-4">
+          <img class="card-image" src="./assets/placeimg_163_100_arch.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Hong Kong</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur!</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img class="card-image" src="./assets/placeimg_163_100_arch.jpg">  
+          <div class="card-body">
+            <h5 class="card-title">London</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, minima!</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img class="card-image" src="./assets/placeimg_163_100_arch.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Macau</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, saepe?</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img class="card-image" src="./assets/placeimg_163_100_arch.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Singapore</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, nemo.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img class="card-image" src="./assets/placeimg_163_100_arch.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Paris</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, exercitationem!</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img class="card-image" src="./assets/placeimg_163_100_arch.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Glasgow</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, ratione.</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
         </div>
       </div>
-
-      <div class="card w-50">
-        <img class="card-image" src="./assets/placeimg_640_480_arch.jpg">  
-        <div class="card-body">
-          <h5 class="card-title">London</h5>
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel autem reiciendis quaerat aliquid accusamus modi officia laboriosam et itaque cum.</p>
-          <a href="#" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-
-      <div class="card w-50">
-        <img class="card-image" src="./assets/placeimg_640_480_arch.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Macau</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus dolorem distinctio sit labore libero architecto exercitationem quaerat? Necessitatibus, ducimus!</p>
-          <a href="#" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-
-      <div class="card w-50">
-        <img class="card-image" src="./assets/placeimg_640_480_arch.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Singapore</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at quisquam eaque cupiditate molestias et molestiae atque ab aperiam perspiciatis.</p>
-          <a href="#" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-
-      <div class="card w-50">
-        <img class="card-image" src="./assets/placeimg_640_480_arch.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Paris</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae modi dolor consequuntur nulla sint ipsa ullam, corporis quos laboriosam libero.</p>
-          <a href="#" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-
-      <div class="card w-50">
-        <img class="card-image" src="./assets/placeimg_640_480_arch.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Glasgow</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab? Maiores numquam eaque similique enim blanditiis? Asperiores repellendus tenetur incidunt?</p>
-          <a href="#" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-
+    </section>
     </div> 
   </section>
  
