@@ -10,28 +10,31 @@ body {
     padding-left: 20px;
 }
 
-.nav {
-    /* color: white; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+#title {
+    width: 97%;
+} 
+header ul a:link {
+    color: white;
 }
 
 h5 {
     margin-bottom: 10px;
 }
 
-h3 {
-    background-color: lightgrey;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 36px;   
-    height: 200px;
-}
-
 #list-group {
     margin-top: 10px;
 } 
+
+.sizeSection {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+    width: 97%;
+}
 
 .visitedCities {
     display: flex;
